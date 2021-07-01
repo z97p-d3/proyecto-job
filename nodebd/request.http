@@ -1,0 +1,38 @@
+###
+
+GET http://localhost:3001/api HTTP/1.1
+
+
+###
+POST http://localhost:3001/api HTTP/1.1
+Content-Type: application/json
+
+{
+  
+   
+    "nombre_usuario":"julioGFGHF",
+    "cedula_usuario":1752465465,
+    "telefono_usuario":5432532,
+    "mail_usuario":"dadfsf@fsdafds.com"
+    
+  
+}
+
+###
+DELETE http://localhost:3001/api/2 HTTP/1.1
+
+
+###
+PUT  http://localhost:3001/api/9 HTTP/1.1
+Content-Type: application/json
+
+{
+  
+   
+    "nombre_usuario":"dariso",
+    "cedula_usuario":17524643245,
+    "telefono_usuario":1,
+    "mail_usuario":"DARIOf@fsdafds.com"
+    
+  
+}
